@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment & Private Keys
+.env
+*.env.local
+serviceAccountKey.json
+
+# Builds & Outputs
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Python Virtual Environments
+venv/
+.venv/
+env/
+
+# OS Specific
+.DS_Store
+Thumbs.db
